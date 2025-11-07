@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>PPT QA Chatbot</title>
+		<link rel="stylesheet" href="/static/style.css" />
+	</head>
+	<body>
+		<main class="chat-app">
+			<header class="chat-header">
+				<h1>PPT Q&A Chat</h1>
+			</header>
+
+			<section id="messages" class="messages" aria-live="polite">
+				<!-- Messages will appear here -->
+			</section>
+
+			<div id="typingIndicator" class="typing-indicator" aria-hidden="true">Typing...</div>
+
+			<form id="inputBar" class="input-bar" action="javascript:void(0);">
+						<div class="left-controls">
+										<select id="embeddingsSelect" class="embeddings-select" title="Choose PPT to query">
+											<option value="ALL">All PPTs</option>
+											<option value="">Select PPT Embeddings...</option>
+										</select>
+							<button id="uploadBtn" type="button" class="icon-btn">📤 Upload</button>
+							<input id="fileInput" type="file" accept=".pptx" style="display:none" />
+							<button id="deleteFileBtn" type="button" class="icon-btn danger" title="Delete selected file" disabled>🗑️ Delete</button>
+							<span id="fileName" class="file-name" aria-live="polite"></span>
+						</div>
+
+				<div class="right-controls">
+					<input id="messageInput" class="message-input" type="text" placeholder="Type your question..." autocomplete="off" />
+					<button id="sendBtn" type="submit" class="send-btn">Send</button>
+				</div>
+			</form>
+		</main>
+
+		<script src="/static/script.js"></script>
+	</body>
+</html>
