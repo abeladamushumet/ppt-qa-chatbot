@@ -120,9 +120,9 @@ ppt-qa-chatbot/
 │   │   ├── services/       # Core logic
 │   │   ├── utils/          # Helper functions
 │   │   └── config/         # Configuration
-│   ├── tests/                  # Unit tests
+│   ├── tests/              # Unit tests
 │   └── requirements.txt    # Dependencies
-├── frontend/               # Web interface
+├── static/                # Web interface
 │   ├── index.html         # Main page
 │   ├── style.css          # Styling
 │   ├── script.js          # Frontend logic

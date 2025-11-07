@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data directories (keep structure, ignore contents)
+data/raw_ppt/*
+!data/raw_ppt/.gitkeep
+data/extracted_texts/*
+!data/extracted_texts/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI
+*.db
+*.sqlite
+
+# FAISS
+*.faiss
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Frontend (if building)
+node_modules/
+.npm
+.pnp
+.pnp.js
+
+# Build artifacts
+*.build/
+
+.env
