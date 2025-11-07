@@ -1,0 +1,32 @@
+# For Gemini API integration
+requests
+# FastAPI and web server
+fastapi
+uvicorn
+python-multipart
+
+# Data validation and settings
+pydantic
+pydantic-settings
+
+# PowerPoint processing
+python-pptx
+
+# Vector store and embeddings
+faiss-cpu
+numpy
+
+# OpenAI API
+openai
+
+# Google Gemini API
+google-generativeai
+
+# Utilities
+python-dotenv
+
+# Development
+pytest
+pytest-asyncio
+httpx
+
