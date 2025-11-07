@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RAG PPT Chatbot
 
 A powerful Retrieval-Augmented Generation (RAG) chatbot that enables you to ask questions and get intelligent answers based on the content of your PowerPoint presentations.
@@ -158,4 +157,3 @@ pytest tests/
 =======
 # ppt-qa-chatbot
 An AI chatbot that extracts text and context from PowerPoint presentations and answers questions using a Retrieval-Augmented Generation (RAG) pipeline.
->>>>>>> aa6a319b899225ec444f39f1b43bd33bb9a2dae0
